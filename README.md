@@ -1,4 +1,11 @@
-# Build an ML Pipeline for Short-Term Rental Prices in NYC
+<h1 align='center'>Build an ML Pipeline for Short-Term Rental Prices in NYC</h1>
+<h2 align='center'>ML DevOps Engineer Nanodegree</h2>
+<h4 align='center'>Udacity</h4>
+<h3 align='center'>Orestas Dulinskas</h3>
+<h4 align='center'>November 2022</h4>
+
+
+## Description
 You are working for a property management company renting rooms and properties for short periods of 
 time on various rental platforms. You need to estimate the typical price for a given property based 
 on the price of similar properties. Your company receives new data in bulk every week. The model needs 

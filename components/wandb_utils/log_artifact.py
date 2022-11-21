@@ -14,7 +14,7 @@ def log_artifact(artifact_name, artifact_type, artifact_description, filename, w
     :param wandb_run: current Weights & Biases run
     :return: None
     """
-    # Log to W&B
+    # Logging to W&B
     artifact = wandb.Artifact(
         artifact_name,
         type=artifact_type,
@@ -22,7 +22,4 @@ def log_artifact(artifact_name, artifact_type, artifact_description, filename, w
     )
     artifact.add_file(filename)
     wandb_run.log_artifact(artifact)
-    # We need to call this .wait() method before we can use the
-    # version below. This will wait until the artifact is loaded into W&B and a
-    # version is assigned
     artifact.wait()
