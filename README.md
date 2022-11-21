@@ -4,6 +4,9 @@
 <h3 align='center'>Orestas Dulinskas</h3>
 <h4 align='center'>November 2022</h4>
 
+Github link: https://github.com/Orestas41/build-ml-pipeline-for-short-term-rental-prices
+
+Wandb link: https://wandb.ai/orestas41/nyc_airbnb?workspace=user-orestas41
 
 ## Description
 You are working for a property management company renting rooms and properties for short periods of 
